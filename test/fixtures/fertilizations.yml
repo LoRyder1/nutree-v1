@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nitrogen: 9.99
+  rate: 9.99
+  density: 9.99
+  soil_date: 2015-05-05 15:25:19
+  soil_condition: MyString
+  notes: MyText
+  goal_id: 
+  fertilizer_id: 
+
+two:
+  nitrogen: 9.99
+  rate: 9.99
+  density: 9.99
+  soil_date: 2015-05-05 15:25:19
+  soil_condition: MyString
+  notes: MyText
+  goal_id: 
+  fertilizer_id: 
