@@ -7,6 +7,7 @@ class CreateFertilizations < ActiveRecord::Migration
       t.datetime :soil_date
       t.string :soil_condition
       t.text :notes
+      t.decimal :recommended
       t.references :goal, index: true, foreign_key: true
       t.references :fertilizer, index: true, foreign_key: true
 

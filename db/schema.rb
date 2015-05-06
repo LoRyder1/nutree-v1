@@ -32,6 +32,7 @@ ActiveRecord::Schema.define(version: 20150505224503) do
     t.datetime "soil_date"
     t.string   "soil_condition"
     t.text     "notes"
+    t.decimal  "recommended"
     t.integer  "goal_id"
     t.integer  "fertilizer_id"
     t.datetime "created_at",     null: false

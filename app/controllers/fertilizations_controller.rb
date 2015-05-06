@@ -1,0 +1,2 @@
+class FertilizationsController < ApplicationController
+end
